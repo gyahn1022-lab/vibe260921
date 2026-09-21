@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>안가영 | 개발자 포트폴리오</title>
+  <meta name="description" content="바이브코딩, Python, HTML5로 만드는 개발자 안가영의 프로필과 프로젝트를 소개합니다.">
+  <meta name="theme-color" content="#0f1420">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="안가영 | 개발자 포트폴리오">
+  <meta property="og:description" content="바이브코딩, Python, HTML5 개발자 안가영의 프로필과 프로젝트.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="주 메뉴">
+      <a class="brand" href="#top">안가영<span class="brand-dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Hello, I'm</p>
+        <h1>안가영<span class="hero-sub">Developer</span></h1>
+        <p class="hero-lead">AI와 함께 아이디어를 빠르게 동작하는 결과물로 만드는 개발자입니다.</p>
+        <ul class="tags" aria-label="주 개발 분야">
+          <li>바이브코딩</li>
+          <li>Python</li>
+          <li>HTML5</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">프로젝트 보기</a>
+          <a class="btn btn-ghost" href="#contact">연락하기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <p>
+            안녕하세요, 개발자 안가영입니다. Python과 HTML5를 주로 사용하며,
+            AI와 대화하며 코드를 만들어 가는 <strong>바이브코딩</strong>으로 작은 프로젝트와 게임을 만들고 있습니다.
+          </p>
+          <p>
+            아이디어를 말로 설명하고, 결과를 직접 실행해 확인하고, 다시 다듬는 짧은 사이클을 좋아합니다.
+            빠르게 만들되 동작하는 것을 눈으로 확인할 수 있는 결과물을 목표로 합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>바이브코딩</h3>
+            <p>AI와 협업해 기획부터 구현, 수정까지 빠르게 반복하며 프로토타입을 완성합니다.</p>
+          </article>
+          <article class="card">
+            <h3>Python</h3>
+            <p>tkinter 기반 데스크톱 게임 등 스크립트와 앱을 작성합니다.</p>
+          </article>
+          <article class="card">
+            <h3>HTML5</h3>
+            <p>시맨틱 마크업과 CSS3, JavaScript로 브라우저에서 바로 동작하는 웹 콘텐츠를 만듭니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="card-grid" id="projectGrid">
+          <noscript><p>프로젝트 목록을 보려면 JavaScript를 켜주세요.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact">
+        <h2 class="section-title">Contact</h2>
+        <p>협업이나 문의는 언제든 이메일로 연락 주세요.</p>
+        <p class="email"><a href="mailto:gyahn1022@gmail.com" id="emailText">gyahn1022@gmail.com</a></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:gyahn1022@gmail.com">메일 보내기</a>
+          <button class="btn btn-ghost" id="copyBtn" type="button">이메일 복사</button>
+        </div>
+        <p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> 안가영. All rights reserved.</p>
+      <a href="#top">맨 위로 ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
