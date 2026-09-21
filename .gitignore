@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# PyInstaller 빌드 결과물
+build/
+dist/
+dist_latest/
+*.spec
+*.exe
+
+# 크롤링 결과물
+news_result.*
+
+# OS / 편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
