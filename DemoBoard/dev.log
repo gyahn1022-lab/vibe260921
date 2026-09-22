@@ -1,0 +1,1600 @@
+
+> demoboard@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.35.69:3000
+✓ Ready in 304ms
+✓ Running next.config.ts took 32ms
+
+ GET / 200 in 2.6s (next.js: 1802ms, application-code: 782ms)
+ GET / 200 in 43ms (next.js: 7ms, application-code: 35ms)
+ GET /posts/new 200 in 641ms (next.js: 610ms, application-code: 31ms)
+ GET /posts/1 200 in 537ms (next.js: 504ms, application-code: 32ms)
+ POST /posts/new 200 in 560ms (next.js: 3ms, application-code: 557ms)
+  └─ ƒ createPostAction(undefined, {}) in 4ms src/lib/actions.ts
+ GET / 200 in 17ms (next.js: 2ms, application-code: 14ms)
+ GET / 200 in 54ms (next.js: 4ms, application-code: 50ms)
+ GET /posts/new 200 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET /posts/2 200 in 43ms (next.js: 9ms, application-code: 34ms)
+ POST /posts/new 200 in 65ms (next.js: 3ms, application-code: 62ms)
+  └─ ƒ createPostAction(undefined, {}) in 3ms src/lib/actions.ts
+ GET / 200 in 20ms (next.js: 2ms, application-code: 17ms)
+ GET /?q=shadcn 200 in 41ms (next.js: 3ms, application-code: 38ms)
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+  Reload env: .env
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/posts/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/lib/actions.ts
+    ./src/app/posts/new/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 754ms (next.js: 655ms, application-code: 99ms)
+ GET /?q=shadcn 500 in 751ms (next.js: 742ms, application-code: 9ms)
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+[31m[1m>[0m [90m1 |[0m [36mimport[0m { createClient } [36mfrom[0m [32m"@supabase/supabase-js"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m2 |[0m
+  [90m3 |[0m [36mconst[0m supabaseUrl = process.env.[33mNEXT_PUBLIC_SUPABASE_URL[0m;
+  [90m4 |[0m [36mconst[0m supabaseKey = process.env.[33mNEXT_PUBLIC_SUPABASE_ANON_KEY[0m;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / 500 in 27ms (next.js: 9ms, application-code: 18ms)
+ GET /?q=shadcn 500 in 27ms (next.js: 17ms, application-code: 10ms)
+[browser] Uncaught Error: ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/lib/supabase.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./src/lib/supabase.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] Uncaught Error: ./src/lib/supabase.ts:1:1
+Error: Module not found: Can't resolve '@supabase/supabase-js'
+> 1 | import { createClient } from "@supabase/supabase-js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  4 | const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+
+
+Import trace:
+  Server Component:
+    ./src/lib/supabase.ts
+    ./src/lib/posts.ts
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/lib/supabase.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./src/lib/supabase.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+⨯ Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\app\page.tsx:13:1)
+    at module evaluation (C:\work\DemoBoard\.next\dev\server\chunks\ssr\[root-of-the-server]__1nt49b5._.js:324:47)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey);
+⨯ Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\app\page.tsx:13:1)
+    at module evaluation (C:\work\DemoBoard\.next\dev\server\chunks\ssr\[root-of-the-server]__1nt49b5._.js:324:47)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey); {
+  page: '/'
+}
+⨯ Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\app\page.tsx:13:1)
+    at module evaluation (C:\work\DemoBoard\.next\dev\server\chunks\ssr\[root-of-the-server]__1nt49b5._.js:324:47)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey); {
+  page: '/'
+}
+⨯ Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\app\page.tsx:13:1)
+    at module evaluation (C:\work\DemoBoard\.next\dev\server\chunks\ssr\[root-of-the-server]__1nt49b5._.js:324:47)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey); {
+  page: '/'
+}
+ GET /?q=shadcn 500 in 901ms (next.js: 881ms, application-code: 21ms)
+ GET / 500 in 900ms (next.js: 894ms, application-code: 5ms)
+[browser] Uncaught Error: Supabase URL and key are required
+    at module evaluation (src/lib/supabase.ts:7:9)
+    at module evaluation (src/lib/posts.ts:1:1)
+    at module evaluation (src/app/page.tsx:13:1)
+    at module evaluation (src/app/page.tsx:113:1)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey);
+[browser] Uncaught Error: Supabase URL and key are required
+    at module evaluation (src/lib/supabase.ts:7:9)
+    at module evaluation (src/lib/posts.ts:1:1)
+    at module evaluation (src/app/page.tsx:13:1)
+    at module evaluation (src/app/page.tsx:113:1)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey);
+  Reload env: .env.local
+Error listing posts: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: getaddrinfo ENOTFOUND placeholder.supabase.co (ENOTFOUND)\n' +
+    'Error: getaddrinfo ENOTFOUND placeholder.supabase.co\n' +
+    '    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)\n' +
+    '    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:131:17)',
+  hint: '',
+  code: ''
+}
+ GET /?q=shadcn 200 in 7.3s (next.js: 57ms, application-code: 7.2s)
+Error listing posts: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: getaddrinfo ENOTFOUND placeholder.supabase.co (ENOTFOUND)\n' +
+    'Error: getaddrinfo ENOTFOUND placeholder.supabase.co\n' +
+    '    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)\n' +
+    '    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:131:17)',
+  hint: '',
+  code: ''
+}
+ GET / 200 in 7.1s (next.js: 3ms, application-code: 7.1s)
+ GET /posts/new 200 in 60ms (next.js: 37ms, application-code: 23ms)
+Error creating post: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: getaddrinfo ENOTFOUND placeholder.supabase.co (ENOTFOUND)\n' +
+    'Error: getaddrinfo ENOTFOUND placeholder.supabase.co\n' +
+    '    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)\n' +
+    '    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:131:17)',
+  hint: '',
+  code: ''
+}
+⨯ Error: {"message":"TypeError: fetch failed","details":"TypeError: fetch failed\n\nCaused by: Error: getaddrinfo ENOTFOUND placeholder.supabase.co (ENOTFOUND)\nError: getaddrinfo ENOTFOUND placeholder.supabase.co\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)\n    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:131:17)","hint":"","code":""}
+    at ignore-listed frames {
+  digest: '1582237614@E394'
+}
+ POST /posts/new 500 in 22ms (next.js: 2ms, application-code: 19ms)
+  └─ ƒ createPostAction(undefined, {}) in 8ms src/lib/actions.ts
+[browser] Uncaught Error: {message: ..., details: ..., hint: "", code: ...}
+    at NewPostPage (src\app\posts\new\page.tsx:8:7)
+   6 |     <div className="space-y-6">
+   7 |       <h1 className="text-2xl font-bold">새 글 작성</h1>
+>  8 |       <PostForm action={createPostAction} cancelHref="/" submitLabel="등록" />
+     |       ^
+   9 |     </div>
+  10 |   );
+  11 | }
+ GET /posts/new 200 in 42ms (next.js: 2ms, application-code: 40ms)
+Error creating post: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: getaddrinfo ENOTFOUND placeholder.supabase.co (ENOTFOUND)\n' +
+    'Error: getaddrinfo ENOTFOUND placeholder.supabase.co\n' +
+    '    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)\n' +
+    '    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:131:17)',
+  hint: '',
+  code: ''
+}
+⨯ Error: {"message":"TypeError: fetch failed","details":"TypeError: fetch failed\n\nCaused by: Error: getaddrinfo ENOTFOUND placeholder.supabase.co (ENOTFOUND)\nError: getaddrinfo ENOTFOUND placeholder.supabase.co\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)\n    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:131:17)","hint":"","code":""}
+    at ignore-listed frames {
+  digest: '1582237614@E394'
+}
+ POST /posts/new 500 in 23ms (next.js: 2ms, application-code: 21ms)
+  └─ ƒ createPostAction(undefined, {}) in 13ms src/lib/actions.ts
+[browser] Uncaught Error: {message: ..., details: ..., hint: "", code: ...}
+    at NewPostPage (src\app\posts\new\page.tsx:8:7)
+   6 |     <div className="space-y-6">
+   7 |       <h1 className="text-2xl font-bold">새 글 작성</h1>
+>  8 |       <PostForm action={createPostAction} cancelHref="/" submitLabel="등록" />
+     |       ^
+   9 |     </div>
+  10 |   );
+  11 | }
+  Reload env: .env.local
+⨯ Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\lib\actions.ts:5:1)
+    at module evaluation (src\app\posts\new\page.tsx:2:1)
+    at module evaluation (C:\work\DemoBoard\.next\dev\server\chunks\ssr\[root-of-the-server]__07vtz3_._.js:70:47)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey);
+⨯ Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\lib\actions.ts:5:1)
+    at module evaluation (src\app\posts\new\page.tsx:2:1)
+    at module evaluation (C:\work\DemoBoard\.next\dev\server\chunks\ssr\[root-of-the-server]__07vtz3_._.js:70:47)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey); {
+  page: '/posts/new'
+}
+ GET /posts/new 500 in 159ms (next.js: 150ms, application-code: 9ms)
+[browser] Uncaught Error: Supabase URL and key are required
+    at module evaluation (src\lib\supabase.ts:7:9)
+    at module evaluation (src\lib\posts.ts:1:1)
+    at module evaluation (src\lib\actions.ts:5:1)
+    at module evaluation (src/app/posts/new/page.tsx:2:1)
+    at module evaluation (src/app/posts/new/page.tsx:11:1)
+   5 |
+   6 | if (!supabaseUrl || !supabaseKey) {
+>  7 |   throw new Error("Supabase URL and key are required");
+     |         ^
+   8 | }
+   9 |
+  10 | export const supabase = createClient(supabaseUrl, supabaseKey);
+  Reload env: .env.local
+  Reload env: .env
+  Reload env: .env.local
+Error listing posts: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.posts' in the schema cache"
+}
+ GET / 200 in 1271ms (next.js: 69ms, application-code: 1202ms)
+Error listing posts: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.posts' in the schema cache"
+}
+ GET / 200 in 574ms (next.js: 3ms, application-code: 571ms)
+Error listing posts: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.posts' in the schema cache"
+}
+ GET / 200 in 214ms (next.js: 6ms, application-code: 207ms)
