@@ -1,10 +1,14 @@
 """네이버 검색 결과(뉴스)에서 기사 링크를 모아 제목/언론사/날짜/본문을 크롤링한다.
 
-필요 패키지: pip install requests beautifulsoup4 openpyxl
+필요 패키지: pip install requests beautifulsoup4 openpyxl supabase python-dotenv
 사용법:      python news_crawler.py            (저장된 기본 검색어 사용, 초기값: 반도체)
              python news_crawler.py 검색어 -n 5
              python news_crawler.py --set-default 검색어   (기본 검색어 변경)
              python news_crawler.py 검색어 --from 2026-09-01 --to 2026-09-10
+
+Supabase 설정: .env 파일에 다음 환경변수 설정
+             SUPABASE_URL=https://...supabase.co
+             SUPABASE_KEY=sb_...
 """
 import argparse
 import csv
@@ -20,6 +24,17 @@ import requests
 from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
+
+try:
+    from dotenv import load_dotenv
+    from supabase import create_client
+    load_dotenv()
+    SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+    SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
+    SUPABASE_CLIENT = create_client(SUPABASE_URL, SUPABASE_KEY) if SUPABASE_URL and SUPABASE_KEY else None
+except ImportError:
+    SUPABASE_CLIENT = None
+    print("경고: Supabase 라이브러리가 설치되지 않았습니다. 파일 저장만 진행됩니다.")
 
 SEARCH_URL = (
     "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0"
@@ -324,7 +339,36 @@ def save_excel(articles, path="news_result.xlsx"):
     wb.save(path)
 
 
-def save(articles, base="news_result"):
+def save_to_supabase(articles, query):
+    """수집한 기사를 Supabase에 저장한다."""
+    if not SUPABASE_CLIENT:
+        return False
+
+    try:
+        for article in articles:
+            data = {
+                "query": query,
+                "title": article.get("title", ""),
+                "press": article.get("press", ""),
+                "date": article.get("date", ""),
+                "posted": article.get("posted", ""),
+                "url": article.get("url", ""),
+                "original_url": article.get("original_url", ""),
+                "snippet": article.get("snippet", ""),
+                "summary": article.get("summary", ""),
+                "keywords": cell_text(article.get("keywords", [])),
+                "content": article.get("content", ""),
+            }
+            SUPABASE_CLIENT.table("articles").insert(data).execute()
+        print(f"Supabase 저장 완료: {len(articles)}개 기사")
+        return True
+    except Exception as e:
+        print(f"Supabase 저장 실패: {e}")
+        return False
+
+
+def save(articles, base="news_result", query=""):
+    # 파일로 저장
     with open(f"{base}.json", "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
     with open(f"{base}.csv", "w", encoding="utf-8-sig", newline="") as f:
@@ -333,6 +377,10 @@ def save(articles, base="news_result"):
         writer.writerows({k: cell_text(v) for k, v in a.items()} for a in articles)
     save_excel(articles, f"{base}.xlsx")
     print(f"저장 완료: {base}.json, {base}.csv, {base}.xlsx")
+
+    # Supabase에 저장
+    if SUPABASE_CLIENT:
+        save_to_supabase(articles, query)
 
 
 def main():
@@ -358,7 +406,7 @@ def main():
     if not articles:
         print("수집된 기사가 없습니다.")
         return
-    save(articles)
+    save(articles, query=query)
     print("\n--- 첫 번째 기사 미리보기 ---")
     first = articles[0]
     print(first["title"])
