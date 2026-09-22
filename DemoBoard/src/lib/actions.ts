@@ -26,6 +26,7 @@ export async function createPostAction(
   const parsed = parse(formData);
   if ("error" in parsed) return { error: parsed.error };
   const post = await createPost(parsed.data);
+  if (!post) return { error: "포스트 생성에 실패했습니다." };
   revalidatePath("/");
   redirect(`/posts/${post.id}`);
 }
